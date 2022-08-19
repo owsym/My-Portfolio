@@ -1,0 +1,99 @@
+*{
+ margin: 0;
+ padding: 0;   
+ font-family: Arial, Helvetica, sans-serif;
+}
+.hero{
+height: 100%;
+width: 100%;
+background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)),url(logp.jpg);
+background-position: center;
+background-size: cover; 
+position: absolute;   
+}
+.formbox{
+width: 380px;
+height: 480px;
+position: relative;
+margin: 6% auto;
+background:whitesmoke ;   
+padding: 5px; 
+overflow: hidden;
+}
+.buttonbox{
+ width: 220px;
+ margin: 35px auto;
+ position: relative;
+ box-shadow: 0 0 20px 9px #e845051f;
+ border-radius: 30px;   
+}
+.tog-btn{
+padding: 10px 30px;
+cursor: pointer;
+background: transparent;
+border: 0;
+outline: none;
+position: relative;    
+}
+#btn{
+top: 0;
+left: 0;
+position: absolute;
+width: 110px;
+height: 100%;
+background: linear-gradient(to right, #ff105f,#ffad06 );
+border-radius: 30px;
+transition: 0.5s;    
+}
+.icon{
+margin: 30px auto;
+text-align: center;    
+}
+.icon img{
+width: 30px;
+margin: 0 12px;
+box-shadow: 0 0 20px #7f7f7f3d;
+cursor: pointer; 
+border-radius: 50%;
+}
+.inputg{
+top: 180px;    
+position: absolute;
+width: 280px;
+transition: 0.5s;
+}
+.inputf{
+width: 100%;
+padding: 10px 0;
+margin: 5px 0;
+border-top: 0;
+border-left: 0;
+border-right: 0;
+outline: none;
+background: transparent;    
+}
+.sbtn{
+width: 85%;
+padding: 10px 30px;
+display: block;
+margin: auto;
+background: linear-gradient(to right, #ff105f,#ffad06);    
+border: 0;
+outline: none;
+border-radius: 30px;
+}
+.checkbox{
+    margin: 30px 10px 30px 0;    
+    }
+    span{
+    color: #777;    
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+    }
+#Login{
+left: 50px;    
+}
+#Register{
+left: 450px;    
+}

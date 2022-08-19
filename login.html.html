@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login Or Registration</title>
+<link rel="stylesheet" href="logs.css">
+</head>
+<body>
+ <div class="hero">
+<div class="formbox">
+<div class="icon">
+<img src="fb.png" alt="Facebook">   
+<img src="gg.png" alt="Google">
+<img src="ig.png" alt="Instagram">
+</div>
+ <div class="buttonbox">
+ <div id="btn"></div>   
+ <button type="button" class="tog-btn" onclick="Login()">Login</button>
+ <butoon type="button" class="tog-btn" onclick="Register()">Register</button>   
+ </div> 
+ <form id="Login" class="inputg">
+ <input type="text" class="inputf" placeholder="User Id" required>   
+ <input type="text" class="inputf" placeholder="Enter Password" required>
+ <input type="checkbox" class="checkbox"><span>Remember Password</span>
+ <button type="submit" class="sbtn">Login</button>
+ </form>  
+ <form id="Register" class="inputg">
+    <input type="text" class="inputf" placeholder="User Id" required>   
+    <input type="email" class="inputf" placeholder="Email Address" required>
+    <input type="text" class="inputf" placeholder="Enter Password" required>
+    <input type="checkbox" class="checkbox"><span>I Agree</span>
+    <button type="submit" class="sbtn">Register</button>
+    </form>  
+</div>
+ </div>  
+
+ <script>
+ var x = document.getElementById("Login");
+ var y = document.getElementById("Register");
+ var z = document.getElementById("btn");
+
+ function Register(){
+    x.style.left ="-400px";
+    y.style.left ="50px";
+    z.style.left ="110px";}
+
+    function Login(){
+    x.style.left ="50px";
+    y.style.left ="450px";
+    z.style.left ="0px";}
+    
+ </script> 
+
+</body>
+</html>
